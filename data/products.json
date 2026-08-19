@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "Classic White T-Shirt",
+        "price": 699,
+        "category": "clothing",
+        "image": "images/classic-white-tshirt.webp",
+        "description": "A comfortable classic white t-shirt made for everyday wear. Its simple design makes it easy to pair with almost anything."
+    },
+    {
+        "id": 2,
+        "title": "Denim Jacket",
+        "price": 1899,
+        "category": "clothing",
+        "image": "images/denim-jacket.jpg",
+        "description": "A versatile denim jacket with a timeless look. Perfect for casual outings and cooler evenings."
+    },
+    {
+        "id": 3,
+        "title": "Men's Casual Sneakers",
+        "price": 2499,
+        "category": "footwear",
+        "image": "images/mens-casual-sneakers.jpg",
+        "description": "Lightweight casual sneakers designed for comfortable everyday use, whether you're heading to college, work, or out with friends."
+    },
+    {
+        "id": 4,
+        "title": "Women's Casual Shoes",
+        "price": 2199,
+        "category": "footwear",
+        "image": "images/womens-casual-shoes.webp",
+        "description": "Comfortable casual shoes with a clean design that works well with everyday outfits."
+    },
+    {
+        "id": 5,
+        "title": "Slim Backpack",
+        "price": 1599,
+        "category": "accessories",
+        "image": "images/slim-backpack.jpg",
+        "description": "A compact and practical backpack with enough space for daily essentials, books, and personal devices."
+    },
+    {
+        "id": 6,
+        "title": "Leather Wallet",
+        "price": 999,
+        "category": "accessories",
+        "image": "images/leather-wallet.webp",
+        "description": "A simple leather wallet designed to keep your cards and cash organized while fitting comfortably in your pocket."
+    },
+    {
+        "id": 7,
+        "title": "Portable Bluetooth Speaker",
+        "price": 1799,
+        "category": "electronics",
+        "image": "images/portable-bluetooth-speaker.webp",
+        "description": "A compact Bluetooth speaker that delivers convenient wireless audio for your room, desk, or outdoor activities."
+    },
+    {
+        "id": 8,
+        "title": "Wireless Headphones",
+        "price": 3299,
+        "category": "electronics",
+        "image": "images/wireless-headphones.webp",
+        "description": "Comfortable wireless headphones designed for music, videos, calls, and everyday listening."
+    },
+    {
+        "id": 9,
+        "title": "Mechanical Gaming Keyboard",
+        "price": 4499,
+        "category": "electronics",
+        "image": "images/mechanical-gaming-keyboard.webp",
+        "description": "A responsive mechanical keyboard suitable for gaming, programming, and everyday desktop use."
+    },
+    {
+        "id": 10,
+        "title": "External SSD 1TB",
+        "price": 6499,
+        "category": "electronics",
+        "image": "images/external-ssd.webp",
+        "description": "A portable 1TB solid-state drive for storing and transferring documents, projects, photos, and other files."
+    },
+    {
+        "id": 11,
+        "title": "Ceramic Coffee Mug",
+        "price": 399,
+        "category": "home",
+        "image": "images/ceramic-coffee-mug.webp",
+        "description": "A simple ceramic mug suitable for coffee, tea, and other everyday beverages at home or at work."
+    },
+    {
+        "id": 12,
+        "title": "Minimal Desk Lamp",
+        "price": 1299,
+        "category": "home",
+        "image": "images/minimal-desk-lamp.jpg",
+        "description": "A compact desk lamp with a clean design that provides practical lighting for study and work spaces."
+    },
+    {
+        "id": 13,
+        "title": "Canvas Wall Art",
+        "price": 899,
+        "category": "home",
+        "image": "images/canvas-wall-art.jpg",
+        "description": "A simple decorative wall piece that can add character to a bedroom, study area, or living space."
+    },
+    {
+        "id": 14,
+        "title": "Travel Water Bottle",
+        "price": 699,
+        "category": "lifestyle",
+        "image": "images/travel-water-bottle.webp",
+        "description": "A reusable water bottle designed for carrying drinks during college, work, workouts, and travel."
+    },
+    {
+        "id": 15,
+        "title": "Everyday Sunglasses",
+        "price": 799,
+        "category": "accessories",
+        "image": "images/everyday-sunglasses.jpg",
+        "description": "A lightweight pair of sunglasses with a simple everyday style."
+    },
+    {
+        "id": 16,
+        "title": "Running Sports Watch",
+        "price": 2799,
+        "category": "lifestyle",
+        "image": "images/running-sports-watch.avif",
+        "description": "A sporty everyday watch designed for people who prefer a practical and active style."
+    },
+    {
+        "id": 17,
+        "title": "Cotton Hoodie",
+        "price": 1499,
+        "category": "clothing",
+        "image": "images/cotton-hoodie.jpeg",
+        "description": "A soft casual hoodie designed for comfortable everyday wear during cooler weather."
+    },
+    {
+        "id": 18,
+        "title": "Everyday Running Shoes",
+        "price": 2999,
+        "category": "footwear",
+        "image": "images/sports-shoes.avif",
+        "description": "Comfortable running shoes designed for everyday walks, light workouts, and active routines."
+    },
+    {
+        "id": 19,
+        "title": "Phone Stand",
+        "price": 499,
+        "category": "electronics",
+        "image": "images/phone-stand.webp",
+        "description": "A compact phone stand that keeps your device upright while watching videos, studying, or taking calls."
+    },
+    {
+        "id": 20,
+        "title": "Desk Organizer",
+        "price": 599,
+        "category": "home",
+        "image": "images/desk-organizer.jpg",
+        "description": "A practical desk organizer for keeping stationery, small accessories, and everyday items neatly arranged."
+    }
+]
