@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - ShopEase</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ShopEase</a>
+
+            <nav class="nav-links">
+                <a href="index.html">Shop</a>
+                <a href="cart.html" class="cart-link">
+                    Cart
+                    <span id="cartCount">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <a href="index.html" class="back-link">
+            ← Back to Products
+        </a>
+
+        <section class="product-details" id="productDetails">
+
+            <div class="product-detail-image">
+                <img
+                    id="productImage"
+                    src=""
+                    alt="Product image"
+                >
+            </div>
+
+            <div class="product-detail-content">
+
+                <span class="product-detail-category" id="productCategory">
+                    Category
+                </span>
+
+                <h1 id="productTitle">
+                    Loading product...
+                </h1>
+
+                <p class="product-detail-price" id="productPrice">
+                    $0.00
+                </p>
+
+                <div class="product-divider"></div>
+
+                <p class="product-description" id="productDescription">
+                    Loading product details...
+                </p>
+
+                <button
+                    class="detail-add-cart-btn"
+                    id="addToCartBtn"
+                >
+                    Add to Cart
+                </button>
+
+                <p class="cart-message" id="cartMessage"></p>
+
+            </div>
+
+        </section>
+
+        <section class="product-error" id="productError" hidden>
+            <h2>Product not found</h2>
+            <p>
+                The product you're looking for could not be found.
+            </p>
+            <a href="index.html" class="back-to-shop">
+                Back to Shop
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>ShopEase &copy; 2026</p>
+    </footer>
+
+    <script src="js/product-details.js"></script>
+
+</body>
+</html>

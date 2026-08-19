@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Online Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ShopEase</a>
+
+            <nav class="nav-links">
+                <a href="index.html" class="active">Shop</a>
+                <a href="cart.html" class="cart-link">
+                    Cart
+                    <span id="cartCount">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO SHOPEASE</p>
+
+                <h1>Good finds.<br>Simple shopping.</h1>
+
+                <p class="hero-text">
+                    Explore our collection of everyday products and find
+                    something you like.
+                </p>
+            </div>
+        </section>
+
+        <section class="catalog-section">
+
+            <div class="catalog-heading">
+                <div>
+                    <p class="eyebrow">OUR COLLECTION</p>
+                    <h2>Browse Products</h2>
+                </div>
+
+                <p id="resultCount">Loading products...</p>
+            </div>
+
+            <div class="catalog-controls">
+
+                <div class="search-box">
+                    <label for="searchInput">Search</label>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search products..."
+                        autocomplete="off"
+                    >
+                </div>
+            
+                <div class="category-box">
+                    <label for="categoryFilter">Category</label>
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                    </select>
+                </div>
+
+                <div class="sort-box">
+                    <label for="sortSelect">Sort By</label>
+                    <select id="sortSelect">
+                        <option value="default">Default</option>
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="name-asc">Name: A to Z</option>
+                        <option value="name-desc">Name: Z to A</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="product-grid" id="productGrid">
+            </div>
+
+            <div class="empty-state" id="emptyState" hidden>
+                <h2>No products found</h2>
+                <p>Try changing your search or category filter.</p>
+            </div>
+
+            <nav
+                class="pagination"
+                id="pagination"
+                aria-label="Product pagination">
+            </nav>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>ShopEase &copy; 2026</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+
+</body>
+</html>
